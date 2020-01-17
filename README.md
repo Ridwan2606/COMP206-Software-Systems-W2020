@@ -6,9 +6,9 @@ They are available to everyone. I hope that this will be a good resource for all
 
 My TA Schedule:
 
-Tutorial Hour: 1:05 pm - 1:55 pm (Trottier 3110)
+Tutorial Hour: 1:05 pm - 1:55 pm (Trottier 3120 Krieble Lab)
 
-Office Hour: 2:05 pm - 2:55 pm (Trottier 3120 Krieble Lab)
+Office Hour: 2:05 pm - 2:55 pm (Trottier 3110)
 
 Lab solution posted up to date:
 

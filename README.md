@@ -13,7 +13,8 @@ Office Hour: 2:05 pm - 2:55 pm (Trottier 3110)
 Lab solution posted up to date:
 
 Lab A : Introduction to COMP 206
-
+Lab B : VIM (SKIPPED)
+Lab C : Bash
 
 -Ridwan
 

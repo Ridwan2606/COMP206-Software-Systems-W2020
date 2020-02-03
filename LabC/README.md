@@ -22,8 +22,9 @@ Returning error code from function can only happen using the "exit" or "return" 
 The error code will then necessarily be in $? after the exit/return command.
 This error code will be an int ranging from 0 - 255. 
 
-Also, if you have a function that return a value which you're sure will be between 0 to 255,
-instead of going with global/command substitution/eval method, you can return an "error" code 
+Hence, if you have a function that return a value which will be between 0 to 255,
+instead of going with global/command substitution/eval approach, you can somewhat trick your way
+by returning an "error" code 
 (more like a status code) that correspond to that value using "return". The value will then 
 be stored in $? .
 

@@ -1,10 +1,15 @@
 routine.sh: Simple script showcasing basics of bash script with a given scenario
+
 countlines1.sh : Explicit For Loop example
+
 countlines2.sh : Shell Function using global method
+
 countlines3.sh : Shell Function using command substitution method
+
 countlines4.sh : Shell Function using eval method
 
 The countlines files were slightly modified from the bash scripts at this website:
+
 https://www.macs.hw.ac.uk/~hwloidl/Courses/LinuxIntro/x945.html
 
 RETURNING VALUES VS RETURNING ERROR CODE:

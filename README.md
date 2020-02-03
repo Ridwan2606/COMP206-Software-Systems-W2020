@@ -13,8 +13,17 @@ Office Hour: 2:05 pm - 2:55 pm (Trottier 3110)
 Lab solution posted up to date:
 
 Lab A : Introduction to COMP 206
+
 Lab B : VIM (SKIPPED)
+
 Lab C : Bash
+
+
+
+Note: I have skipped Lab B - VIM as the lab itself is pretty self-explanatory in itself and it is
+very difficult for me to show how to use VIM in pictures or code.
+
+Thank you!
 
 -Ridwan
 

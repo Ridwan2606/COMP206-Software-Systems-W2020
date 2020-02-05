@@ -8,7 +8,7 @@ Also do note that comiling a C code using gcc sends data in two streams:
 
 2.) stderr
 
-Errors detected in compiling is sent to the stderr (2).
+Errors detected in compilation is sent to the stderr (2).
 Anything else is sent to the stdout (1).
 
 By default both the stderr and stdout points to the screen/terminal.
@@ -19,5 +19,5 @@ gcc labd.c 2>error.txt
 
 The "2" is the stderr stream of the gcc command.
 
-No error will be displayed on the screen for the compilation. You need to cat the
+Then, no error will be displayed on the screen for the compilation. You need to cat the
 file error.txt to inspect the compilation errors.

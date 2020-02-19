@@ -26,13 +26,13 @@ Lab E : C Arrays and I/O
 Note: I have skipped Lab B - VIM as the lab itself is pretty self-explanatory in itself and it is
 very difficult for me to show how to use VIM in pictures or code.
 
-To import this solution repository on Mimi, enter the following command on the mimi terminal
+To import this solution repository on Mimi, enter the following command on the mimi terminal:
 
 git clone https://github.com/Ridwan2606/COMP206-Software-Systems-W2020.git
 
 
 To delete the solution repository from Mimi, enter the following command on the mimi terminal (assuming the solution folder is in your
-current directory)
+current directory):
 
 rm -rf COMP206-Software-Systems-W2020
 

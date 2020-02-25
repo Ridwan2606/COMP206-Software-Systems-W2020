@@ -22,6 +22,8 @@ Lab D : Sessions and C Compile
 
 Lab E : C Arrays and I/O
 
+Lab F : Pointers and Functions
+
 
 Note: I have skipped Lab B - VIM as the lab itself is pretty self-explanatory in itself and it is
 very difficult for me to show how to use VIM in pictures or code.

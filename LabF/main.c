@@ -86,6 +86,7 @@ int main4(){
     printf("Please enter an integer: ");
     scanf("%d",&x);
     printf("%d! = %d\n", x ,factorial(x));
+    return 0;
 }
 
 

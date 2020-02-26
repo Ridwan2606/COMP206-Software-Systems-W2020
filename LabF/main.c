@@ -80,6 +80,7 @@ int factorial(int n){
 
 /*
 QUESTION 2 
+This method tests the factorial method
 */
 int main4(){
     int x;
@@ -122,6 +123,25 @@ int increment_byref (int * n){
     return *n;
 }
 
+// This method is to test the swap_by_val example
+// Swapping will not occur in this case
+int main5() {
+    int a = 1;
+    int b = 2;
+    swap_byval(a,b);
+    printf("%d %d\n",a,b);
+}
+
+
+// This method is to test the swap_by_ref example
+// Swapping will occur in this case
+int main6() {
+    int a = 1;
+    int b = 2;
+    swap_byref(&a,&b);
+    printf("%d %d\n",a,b);
+}
+
 // This is the main method that is always executed when the compiled program is run.
 // Uncomment only the sub main method that you want to test
 int main(){
@@ -129,6 +149,8 @@ int main(){
     //main2();
     //main3();
     //main4();
+    //main5();
+    //main6();
 }
 
 

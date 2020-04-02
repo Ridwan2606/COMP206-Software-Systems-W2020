@@ -13,16 +13,27 @@ struct BANK_ACCOUNT {
 
 
 int main(int argc, char *argv[]) {
-
-	struct BANK_ACCOUNT* accounts = (struct BANK_ACCOUNT*) calloc(100, sizeof(struct BANK_ACCOUNT));
-	
 	int nextSpot = 0;
 	int newAccounts;
-	
-	//setlinebuf(stdout);
 
 	printf("How many accounts are being created:"); 
 	scanf("%d", &newAccounts);
+	
+	/* Note that in the following line of code
+	 we are reserving as much space for the bank accounts
+	 as we need using calloc. If the user inputs 50, 
+	 enough space for 50 Struct BANK_ACCOUNT will be reserved. 
+
+	 In contrary to the previous example in bank.c , we use
+	 an array of struct BANK_ACCOUNT of arbitrary size 100 is used. This
+	 implies that if the user was to create only 5 accounts, we've effectively
+	 wasted 95 cells in the array. Or if the user wanted to create >100 accounts,
+	 this would cause an error. 
+	 
+	 In this aspect, dynamic memory allocation (calloc or malloc) is more flexible.
+	 )
+	 */
+	struct BANK_ACCOUNT* accounts = (struct BANK_ACCOUNT*) calloc(newAccounts, sizeof(struct BANK_ACCOUNT));
 	
 	for (int i =0; i < newAccounts; i++) {
 
@@ -57,6 +68,9 @@ int main(int argc, char *argv[]) {
 		}
 	}
 
+	// Do not forget to free every objects created using malloc/calloc
+	// to prevent memory leak. There's no garbage collector in C unlike Java.
+	// You manually have to do the garbage collecting using free()
     free(accounts);
 	return 0;
 }

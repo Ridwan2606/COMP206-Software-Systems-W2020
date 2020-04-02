@@ -18,8 +18,6 @@ int main(int argc, char *argv[]) {
 
 	int nextSpot = 0;
 	int newAccounts;
-	
-	//setlinebuf(stdout);
 
 	printf("How many accounts are being created:"); 
 	scanf("%d", &newAccounts);

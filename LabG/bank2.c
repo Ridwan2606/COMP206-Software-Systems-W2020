@@ -1,3 +1,6 @@
+//Author: Joseph Vybihal & Ridwan Kurmally
+//Git Repository: https://github.com/Ridwan2606/COMP206-Software-Systems-W2020
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -21,7 +24,8 @@ int main(int argc, char *argv[]) {
 	
 	/* Note that in the following line of code
 	 we are reserving as much space for the bank accounts
-	 as we need using calloc. If the user inputs 50, 
+	 as we need using calloc & specifying the number of accounts in
+	 the newAccounts variable. If the user inputs 50, 
 	 enough space for 50 Struct BANK_ACCOUNT will be reserved. 
 
 	 In contrary to the previous example in bank.c , we use

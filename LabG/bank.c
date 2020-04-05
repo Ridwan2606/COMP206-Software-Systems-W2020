@@ -1,3 +1,6 @@
+//Author: Joseph Vybihal
+//Git Repository: https://github.com/Ridwan2606/COMP206-Software-Systems-W2020
+
 #include<stdio.h>
 #include<stdlib.h>
 

@@ -1,4 +1,6 @@
 # Lab D - Question 1 Editting your login script
+# Author: Ridwan Kurmally
+# Git Repository: https://github.com/Ridwan2606/COMP206-Software-Systems-W2020
 
 # Do note that different accounts can have different login script.
 # In my case, it was .bash_profile. But other accounts can have

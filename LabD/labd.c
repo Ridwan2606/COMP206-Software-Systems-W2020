@@ -1,3 +1,6 @@
+//Author: Ridwan Kurmally
+//Git Repository: https://github.com/Ridwan2606/COMP206-Software-Systems-W2020
+
 #include <stdio.h>
 //We need to include stdio.h library to use the "puts" function
 

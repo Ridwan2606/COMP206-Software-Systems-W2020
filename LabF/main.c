@@ -1,3 +1,6 @@
+//Author: Ridwan Kurmally
+//Git Repository: https://github.com/Ridwan2606/COMP206-Software-Systems-W2020
+
 #include <stdio.h>
 #include <string.h>
 
@@ -128,8 +131,9 @@ int increment_byref (int * n){
 int main5() {
     int a = 1;
     int b = 2;
+    printf("Values before calling swap_byval\na: %d, b: %d\n",a,b);
     swap_byval(a,b);
-    printf("%d %d\n",a,b);
+    printf("Values after calling swap_byval\na: %d, b: %d\n",a,b);
 }
 
 
@@ -138,8 +142,9 @@ int main5() {
 int main6() {
     int a = 1;
     int b = 2;
+    printf("Values before calling swap_byref\na: %d, b: %d\n",a,b);
     swap_byref(&a,&b);
-    printf("%d %d\n",a,b);
+    printf("Values before calling swap_byref\na: %d, b: %d\n",a,b);
 }
 
 // This is the main method that is always executed when the compiled program is run.

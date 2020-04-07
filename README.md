@@ -26,6 +26,8 @@ Lab F : Pointers and Functions
 
 Lab G : Struct and Dynamic Memory
 
+Lab H : Makefile and Git (See README.md for link to Zoom Lab video)
+
 
 Note: I have skipped Lab B - VIM as the lab itself is pretty self-explanatory in itself and it is
 very difficult for me to show how to use VIM in pictures or code.

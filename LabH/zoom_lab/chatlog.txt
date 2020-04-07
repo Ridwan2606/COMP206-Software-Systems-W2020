@@ -1,0 +1,38 @@
+11:55:04	 From  Amirsha Ridwan Nabee Kurmally, Mr : Lab starting at 12:00
+11:55:27	 From  Amirsha Ridwan Nabee Kurmally, Mr : Lab starting at 12:00
+11:59:58	 From  Amirsha Ridwan Nabee Kurmally, Mr : Hey guys, When you join the lab, keep yourself muted and video turned off. There's a raise hand reaction. Use that to get my attention. When I noticed that someone raised their hand, I will pause and you can unmute yourself to ask your question. After that, please go back to being muted so that I can proceed with the lab. Thank you!
+12:01:04	 From  Sivagamy Sriranganathan : yes
+12:05:18	 From  Saad shahbaz : I have a question. Can we put #include <stdio.h> in a header file?
+12:05:47	 From  Saad shahbaz : Because I was getting an error when I was using it in a .h file
+12:05:49	 From  Saad shahbaz : Okay sure
+12:10:54	 From  sympi : So only variable declarations and function names are put into the .h file?
+12:12:39	 From  Sivagamy Sriranganathan : Can you remind me of what -> does again?
+12:13:09	 From  Sivagamy Sriranganathan : yes
+12:13:51	 From  Sivagamy Sriranganathan : Yes thank you
+12:23:06	 From  Saad shahbaz : quick question, can we use .c files in MakeFile
+12:23:28	 From  Saad shahbaz : like i was getting an error when i used .c
+12:23:34	 From  Saad shahbaz : i had to write a .h file
+12:23:42	 From  Saad shahbaz : then it worked perfectly fine
+12:24:01	 From  Saad shahbaz : yess
+12:24:03	 From  Saad shahbaz : exactly
+12:24:10	 From  Saad shahbaz : like utils is used in poly
+12:24:14	 From  Saad shahbaz : and poly is used in polyapp
+12:24:25	 From  Saad shahbaz : OHH okay
+12:30:42	 From  Saad shahbaz : what is rm
+12:36:10	 From  Sivagamy Sriranganathan : why would main.c have a main.h?
+12:37:20	 From  Sivagamy Sriranganathan : Ok thanks
+12:40:03	 From  Sivagamy Sriranganathan : the order is important right?
+12:41:19	 From  Sivagamy Sriranganathan : so the final compilation is at top?
+12:41:50	 From  Sivagamy Sriranganathan : ok
+12:42:58	 From  Sivagamy Sriranganathan : The makefile only reads the first command by default?
+12:44:53	 From  Sivagamy Sriranganathan : Is there any switches for make command?
+12:45:27	 From  Sivagamy Sriranganathan : got it!
+12:54:19	 From  Sivagamy Sriranganathan : We’re seeing the whiteboard now
+12:54:23	 From  monamiwaki : can you show your code?
+13:11:09	 From  monamiwaki : so is there still office hours after this?
+13:11:20	 From  monamiwaki : for both
+13:11:23	 From  monamiwaki : so either is fine!
+13:12:30	 From  Sivagamy Sriranganathan : can you remind me how we created the new branch again?
+13:12:57	 From  Sivagamy Sriranganathan : Ok thanks
+13:17:43	 From  monamiwaki : i have a couple
+13:17:44	 From  Sivagamy Sriranganathan : Thank you so much! Take care

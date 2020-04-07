@@ -5,7 +5,7 @@ It was recorded and published on my OneDrive.
 HERE IS THE LINK: https://mcgill-my.sharepoint.com/:v:/g/personal/ridwan_kurmally_mcgill_ca/Ec1iYHkWMw5Ou4Au0xEbbfsBQ9JxTwMvWW5Y1LOpI7AP1g?e=IVsa5m
 
 
-During the lab, questions were asked in the chatbox. You will not be able to see them in the video but you can refer to them in the chatlog.txt. Messages in that txt file have timestamp so you will be able to figure out which questions were asked at a particular instance.
+During the lab, questions were asked in the chatbox. You will not be able to see them in the video but you can refer to them in the zoom_lab/chatlog.txt file. Messages in that txt file have timestamp so you will be able to figure out which questions were asked at a particular instance.
 
 
 Before starting the lab on zoom, I explained briefly about .h files. Related files in the headers folder.

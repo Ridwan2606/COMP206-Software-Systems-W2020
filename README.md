@@ -24,7 +24,7 @@ Lab F : Pointers and Functions
 
 Lab G : Struct and Dynamic Memory
 
-Lab H : Makefile and Git (See README.md for link to Zoom Lab video)
+Lab H : Makefile and Git
 
 Lab I : Fork
 

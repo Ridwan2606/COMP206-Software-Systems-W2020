@@ -7,6 +7,7 @@
 
 int main(int argc, char *argv[]) {
     struct Node x;
+    head = NULL;
     add_node(5);
     printf("Head has element: %d\n", head->element);
     add_node(10);

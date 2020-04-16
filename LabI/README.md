@@ -1,3 +1,6 @@
+Zoom lab video uploaded: https://mcgill-my.sharepoint.com/:v:/g/personal/ridwan_kurmally_mcgill_ca/Eaz0U78XNqxPliu6d8xr1WcBtcGH0nGPHzlPrV8vki8cPg?e=nRYDRr
+
+
 There are 3 different approach to the question.
 
 

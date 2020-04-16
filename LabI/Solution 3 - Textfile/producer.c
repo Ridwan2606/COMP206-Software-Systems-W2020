@@ -32,20 +32,20 @@ int main() {
     FILE *fp;
 
     // for each number
-    for (int i = 1; i <= 10; i++){
+    for (int i = 1; i <= 10; i++){ 
 
         // busy wait until file can be opened
-        while ((fp=fopen("shared.txt","a")) == NULL);
-        
+        while ((fp=fopen("shared.txt","a")) == NULL);  
+
         // append current number in the file
-        fprintf(fp,"%d ", i);
+        fprintf(fp,"%d ", i);  
 
         // close the file
-        fclose(fp);
+        fclose(fp); 
     }
 
     // busy wait until file can be opened
-    while ((fp=fopen("shared.txt","a")) == NULL);
+    while ((fp=fopen("shared.txt","a")) == NULL);  
     // append "OVER" in the file to indicate to the consumer that transmission of data is over
     fprintf(fp,"OVER");
     // close the file

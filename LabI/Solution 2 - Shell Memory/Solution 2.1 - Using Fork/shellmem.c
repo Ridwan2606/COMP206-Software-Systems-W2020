@@ -36,22 +36,22 @@ void consumer(){
     int value;
     do
     {
-        while (strcmp(getenv("TURN"),"Consumer")!=0); //wait for Consumer turn
+        while (strcmp(getenv("TURN"),"Consumer")!=0); //wait for Consumer turn   
 
-        value = atoi(getenv("VALUE"));
-        printf("%d ",value);    //Prints the value
-        setenv("TURN","Producer",1);    //Gives next turn to producer
+        value = atoi(getenv("VALUE"));  
+        printf("%d ",value);    //Prints the value 
+        setenv("TURN","Producer",1);    //Gives next turn to producer 
 
-    } while (value!=10); //repeat until last number is reached
+    } while (value!=10); //repeat until last number is reached 
 }
 
 void producer(){
-    for (int i = 1; i <= 10; i++)
+    for (int i = 1; i <= 10; i++) 
     {
-        while (strcmp(getenv("TURN"),"Producer")!=0); //wait for Producer turn
-
+        while (strcmp(getenv("TURN"),"Producer")!=0); //wait for Producer turn   
+        
         char buffer[2];
-        sprintf(buffer,"%d",i);
+        sprintf(buffer,"%d",i);  
         setenv("VALUE",buffer,1);   //Assigned current number to VALUE
         setenv("TURN","Consumer",1);    //Gives next turn to consumer
 
@@ -62,7 +62,7 @@ int main(int argc, char const *argv[])
 {
     int pid;
     setenv("TURN","Producer",1); //First turn goes to Producer
-    pid = fork();   // Forks the process
+    pid = fork();   // Forks the process       
     
     switch (pid) {
         case -1:    //Something went wrong

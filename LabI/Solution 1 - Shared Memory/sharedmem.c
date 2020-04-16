@@ -30,21 +30,22 @@ struct SharedMemory {   //This is the shared memory struct
 };
 
 void producer(struct SharedMemory * ptr){
-    for (int counter = 1 ; counter <= 10; counter++)
+    for (int counter = 1 ; counter <= 10; counter++)   
     {
-        while (strcmp(ptr->turn,"Producer")!=0); //While it's not the producer's turn, wait
-
-        ptr->value=counter; // Set value field in the shared memory
+        while (strcmp(ptr->turn,"Producer")!=0); //While it's not the producer's turn, wait 
+        
+        ptr->value=counter; // Set value field in the shared memory  
         ptr->turn= "Consumer";   // Set the next turn to the consumer's
     }
 }
 
 void consumer(struct SharedMemory * ptr){
     while (1){
-        while (strcmp(ptr->turn,"Consumer")!=0); //While it's not the consumer's turn, wait
+        while (strcmp(ptr->turn,"Consumer")!=0); //While it's not the consumer's turn, wait 
+        
         printf("%d ", ptr->value);
         if (ptr->value == 10 ) break; //leave loop if it's the last number
-        ptr->turn = "Producer";
+        ptr->turn = "Producer";  
     }
     printf("\n");
 }
@@ -53,14 +54,16 @@ int main(int argc, char const *argv[])
 {
     int shm_id;   // Id for the shared memory
     struct SharedMemory *shmPTR; // Point to the shared memory
+
+    int x = 10;
+
     shm_id = shmget(IPC_PRIVATE, sizeof(struct SharedMemory), IPC_CREAT | 0666);    //creating shared memory 
-    int pid;
     shmPTR = (struct SharedMemory *) shmat(shm_id, NULL, 0);    //attach the shared memory by making shmPTR point to it
     shmPTR->turn = "Producer";  //First turn goes to producer
 
-    pid = fork();   // Forks the process
+    int pid = fork();   // Forks the process      
     // at this point, shmPTR points to the same shared memory for both processes
-    
+
     switch (pid) {
         case -1:    //Something went wrong
                 perror("Fork");
@@ -69,13 +72,13 @@ int main(int argc, char const *argv[])
         case 0:   
                 // This is the child branch as fork return 0 to the children. 
                 // We will arbitrarily consider the consumer to be the children
-                consumer(shmPTR);
+                consumer(shmPTR);   
                 printf("Id: %d Children (Consumer) terminating...\n",pid);
-                break;
+                break; 
         default:    
                 // This is the parent branch as fork return the children pid to the parent.
                 // We will arbitrarily consider the producer to be the parent
-                producer(shmPTR);
+                producer(shmPTR);  
                 printf("Id: %d Parent (Producer) terminating...\n",pid);
     }
     return 0;
